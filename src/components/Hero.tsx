@@ -9,8 +9,12 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-hero-gradient opacity-10"></div>
       
       {/* Blurred circles for psychedelic effect */}
-      <div className="absolute top-1/4 left-10 w-64 h-64 rounded-full bg-psychedelic-purple opacity-10 blur-3xl"></div>
-      <div className="absolute bottom-1/4 right-10 w-72 h-72 rounded-full bg-psychedelic-pink opacity-10 blur-3xl"></div>
+      <div className="absolute top-1/4 left-10 w-64 h-64 rounded-full bg-psychedelic-purple opacity-10 blur-3xl animate-float-slow"></div>
+      <div className="absolute bottom-1/4 right-10 w-72 h-72 rounded-full bg-psychedelic-pink opacity-10 blur-3xl animate-float-medium"></div>
+      
+      {/* Additional floating elements */}
+      <div className="absolute top-1/3 right-1/4 w-32 h-32 rounded-full bg-psychedelic-orange opacity-10 blur-2xl animate-float-fast"></div>
+      <div className="absolute bottom-1/3 left-1/4 w-44 h-44 rounded-full bg-psychedelic-blue opacity-10 blur-2xl animate-float-medium"></div>
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto">
@@ -18,7 +22,7 @@ const Hero: React.FC = () => {
             I'm <span className="text-gradient gradient-1">Rishul Chanana</span>
           </h1>
           <p className="text-2xl md:text-3xl mb-10 text-center max-w-3xl mx-auto font-medium">
-            Building what others <span className="text-gradient gradient-2 font-semibold">overlook</span>
+            Disrupting the status quo, <span className="text-gradient gradient-2 font-semibold">one innovative idea at a time</span>
           </p>
           
           <div className="flex flex-col md:flex-row justify-center gap-4 md:gap-6 mt-10">

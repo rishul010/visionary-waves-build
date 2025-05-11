@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="py-8 bg-white border-t border-gray-200">
+    <footer className="py-8 bg-white border-t border-gray-200 relative z-10">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
           <div className="flex items-center">
             <p className="text-gray-600">
               <span className="group inline-block">
-                Keep it <span className="text-gradient gradient-2">moving</span>
+                <span className="text-gradient gradient-2">Disrupting the status quo</span>
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-button-gradient-1"></span>
               </span>
             </p>

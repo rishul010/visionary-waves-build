@@ -6,6 +6,8 @@ import AboutMe from '../components/AboutMe';
 import MaximallySection from '../components/MaximallySection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
+import FloatingElements from '../components/FloatingElements';
+import '../components/FloatingElements.css';
 
 const Index = () => {
   useEffect(() => {
@@ -17,9 +19,10 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen relative">
+      <FloatingElements />
       <NavBar />
-      <main className="flex-grow">
+      <main className="flex-grow relative z-10">
         <Hero />
         <AboutMe />
         <MaximallySection />
