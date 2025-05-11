@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +100,27 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-inter;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+}
+
+/* Psychedelic gradient text effect */
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient-shift;
+}
+
+.gradient-1 {
+  @apply bg-gradient-to-r from-psychedelic-purple via-psychedelic-pink to-psychedelic-blue;
+}
+
+.gradient-2 {
+  @apply bg-gradient-to-r from-psychedelic-blue via-psychedelic-orange to-psychedelic-purple;
+}
+
+.gradient-3 {
+  @apply bg-gradient-to-r from-psychedelic-orange via-psychedelic-purple to-psychedelic-pink;
 }
