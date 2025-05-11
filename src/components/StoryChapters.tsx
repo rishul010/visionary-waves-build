@@ -72,7 +72,7 @@ const StoryChapters: React.FC = () => {
       title: 'Future Chapters',
       subtitle: 'The Ongoing Story',
       icon: <ArrowRight className="w-8 h-8" />,
-      content: "I'm just getting started. Maximally is Level 1 of the game I'm here to play. There's much more on the horizon — more initiatives, more challenges, and more ways to disrupt the traditional learning landscape. My vision? A world where ambition, innovation, and real-world experience are the currency that drives the next generation forward. Stay tuned."
+      content: "I'm now building Maximally, which is creating a community of ambitious teens in India. Entrepreneurship and practical skills are typically promoted at the college level, but what about school students? Are we just supposed to focus on CBSE syllabus? Maximally is changing that by bringing entrepreneurship and a variety of essential skills accessible to school students. We're currently building this vision through bootcamps and hackathons, but this is just the beginning. Soon, it will be a whole empire dedicated to empowering young minds across the country."
     },
   ];
 
