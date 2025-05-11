@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mail, Calendar } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -37,11 +37,15 @@ const Hero: React.FC = () => {
             </a>
             
             <a 
-              href="mailto:hello@rishulchanana.com" 
+              href="https://medium.com/@rishulchanana36"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group flex items-center justify-center gap-2 bg-button-gradient-2 hover:bg-button-gradient-1 bg-[length:200%_auto] text-gray-800 hover:text-white font-medium py-3 px-8 rounded-full transition-all duration-300 hover:shadow-lg"
             >
-              <Mail size={20} />
-              Email me
+              <svg viewBox="0 0 24 24" className="w-5 h-5" fill="currentColor">
+                <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+              </svg>
+              Read My Thoughts
             </a>
             
             <a 
