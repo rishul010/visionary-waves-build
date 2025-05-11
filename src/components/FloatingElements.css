@@ -14,3 +14,46 @@
 .clip-path-blob {
   clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
+
+.clip-path-wave {
+  clip-path: polygon(
+    0% 40%,
+    20% 35%,
+    40% 45%,
+    60% 35%,
+    80% 45%,
+    100% 40%,
+    100% 100%,
+    0% 100%
+  );
+}
+
+/* Animation for chapter reveals */
+.chapter-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.chapter-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Animations for the story timeline */
+.timeline-dot {
+  transition: transform 0.3s ease;
+}
+
+.timeline-dot.active {
+  transform: scale(1.5);
+}
+
+.timeline-line {
+  height: 0;
+  transition: height 0.8s ease-out;
+}
+
+.timeline-line.visible {
+  height: 100%;
+}
