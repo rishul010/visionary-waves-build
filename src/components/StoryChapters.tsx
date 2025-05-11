@@ -77,7 +77,7 @@ const StoryChapters: React.FC = () => {
   ];
 
   return (
-    <section id="about" className="py-16 md:py-24 relative">
+    <section id="story" className="py-16 md:py-24 relative">
       <div className="container mx-auto px-6 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center font-playfair">
           My <span className="text-gradient gradient-1">Story</span>

@@ -38,7 +38,8 @@ const NavBar: React.FC = () => {
         {/* Desktop menu */}
         <div className="hidden md:flex space-x-8">
           <a href="#" className="text-gray-800 hover:text-psychedelic-purple transition-colors">Home</a>
-          <a href="#about" className="text-gray-800 hover:text-psychedelic-purple transition-colors">Story</a>
+          <a href="#about-me" className="text-gray-800 hover:text-psychedelic-purple transition-colors">About Me</a>
+          <a href="#story" className="text-gray-800 hover:text-psychedelic-purple transition-colors">Story</a>
           <a href="#maximally" className="text-gray-800 hover:text-psychedelic-pink transition-colors">Maximally</a>
           <a href="#contact" className="text-gray-800 hover:text-psychedelic-blue transition-colors">Contact</a>
           <a 
