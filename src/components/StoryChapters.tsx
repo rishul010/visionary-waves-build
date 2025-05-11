@@ -55,7 +55,7 @@ const StoryChapters: React.FC = () => {
     },
     {
       id: 'hustle',
-      title: 'The Hustle Awakens',
+      title: 'The CodeQuest Experience',
       subtitle: 'From Gamer to Innovator',
       icon: <Rocket className="w-8 h-8" />,
       content: "By the time I hit high school, I was all in on hackathons, video editing competitions, and starting my own events. I noticed a huge gap — school students had no access to hackathons. So, I created them. My hackathon, CodeQuest, quickly became the largest in North India, with over 250 school partnerships, ₹4L+ in sponsorships, and a net profit of ₹1.8L+. The best part? It wasn't just about tech. It was about empowering students to create, innovate, and dream bigger than the classroom allowed."
