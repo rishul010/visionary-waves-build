@@ -40,7 +40,6 @@ const NavBar: React.FC = () => {
           <a href="/" className="text-gray-800 hover:text-psychedelic-purple transition-colors">Home</a>
           <a href="/story" className="text-gray-800 hover:text-psychedelic-purple transition-colors">Story</a>
           <a href="/learnings" className="text-gray-800 hover:text-psychedelic-purple transition-colors">Learnings</a>
-          <a href="#maximally" className="text-gray-800 hover:text-psychedelic-pink transition-colors">Maximally</a>
           <a href="/contact" className="text-gray-800 hover:text-psychedelic-blue transition-colors">Contact</a>
           <a 
             href="https://maximally.in" 
