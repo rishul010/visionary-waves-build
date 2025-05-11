@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import NavBar from '../components/NavBar';
 import Hero from '../components/Hero';
+import AboutMe from '../components/AboutMe';
 import StoryChapters from '../components/StoryChapters';
 import MaximallySection from '../components/MaximallySection';
 import ContactSection from '../components/ContactSection';
