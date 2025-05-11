@@ -1,5 +1,11 @@
 
 import React from 'react';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const MaximallySection: React.FC = () => {
   return (
@@ -16,16 +22,61 @@ const MaximallySection: React.FC = () => {
             <span className="text-gradient gradient-1">Maximally</span>
           </h2>
           
-          <div className="mb-12 text-center">
-            <p className="text-xl md:text-2xl mb-6">
-              Empowering teens with real-world skills they need now, not later.
-            </p>
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-6">
-              I'm trying to build a community of ambitious teens in India and giving them a platform focused on entrepreneurship.
-            </p>
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              We are currently building it using bootcamps and hackathons, but it's going to be a whole empire soon.
-            </p>
+          <div className="mb-12">
+            <div className="text-center mb-8">
+              <p className="text-xl md:text-2xl mb-6">
+                Empowering teens with real-world skills they need now, not later.
+              </p>
+              <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-6">
+                I'm trying to build a community of ambitious teens in India and giving them a platform focused on entrepreneurship.
+              </p>
+              <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+                We are currently building it using bootcamps and hackathons, but it's going to be a whole empire soon.
+              </p>
+            </div>
+            
+            <div className="max-w-3xl mx-auto">
+              <Accordion type="single" collapsible>
+                <AccordionItem value="why">
+                  <AccordionTrigger className="text-xl font-semibold">Why I'm Building Maximally</AccordionTrigger>
+                  <AccordionContent>
+                    <div className="prose prose-lg">
+                      <p className="mb-4">
+                        Growing up in a tier-2 city, I quickly realized that opportunities to learn about anything beyond traditional academics were virtually non-existent. AI, no-code, entrepreneurship - these concepts were foreign in an environment focused solely on grades and college preparation.
+                      </p>
+                      
+                      <p className="mb-4">
+                        During teenage years (13-18), when peer perception matters most, asking parents for money becomes awkward. This drives many to explore online money-making opportunities, but without proper guidance, most attempts fail, leaving teens feeling stuck and hesitant to seek help.
+                      </p>
+                      
+                      <p className="mb-4">
+                        The traditional education system, especially in tier-2 cities, lacks practical skill development. While tier-1 cities might offer some coding or digital marketing opportunities, tier-2 cities remain focused on rote learning, missing crucial real-world skills.
+                      </p>
+                      
+                      <h3 className="text-lg font-semibold mt-6 mb-3">Real Skills, Real Impact</h3>
+                      <p className="mb-4">
+                        Maximally focuses on practical, money-making skills: AI, Digital Marketing, Content Creation, and No-code solutions. Our 7-day crash courses give teens hands-on experience and clear direction. But it's more than skills - we're building a community where teens learn, grow, and hustle together.
+                      </p>
+                      
+                      <h3 className="text-lg font-semibold mt-6 mb-3">The Hackathon That Changed Everything</h3>
+                      <p className="mb-4">
+                        After hosting one of India's largest school hackathons and seeing numerous incomplete projects, we realized the need for foundational training. This led to implementing pre-hackathon training in Python, AI, and coding basics, significantly improving project quality in subsequent events.
+                      </p>
+                      
+                      <h3 className="text-lg font-semibold mt-6 mb-3">Changing the School System</h3>
+                      <p className="mb-4">
+                        India's education system, particularly in tier-2 cities, needs reform. While academic excellence is important, real-world skills are equally crucial. Maximally bridges this gap by providing practical tools, business knowledge, and technology training to make teens industry-ready.
+                      </p>
+                      
+                      <h3 className="text-lg font-semibold mt-6 mb-3">Community + Innovation</h3>
+                      <p className="mb-4">
+                        Maximally is more than an educational platform - it's a community where teens connect, innovate, and create their future. Whether through coding, startups, or content creation, we're empowering teens to take action now rather than waiting for opportunities to come to them.
+                      </p>
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            </div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
