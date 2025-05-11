@@ -49,7 +49,6 @@ const Index = () => {
       <main className="flex-grow relative z-10">
         <Hero />
         <AboutMe />
-        <StoryChapters />
         <MaximallySection />
         <ContactSection />
       </main>
