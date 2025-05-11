@@ -25,7 +25,7 @@ const MaximallySection: React.FC = () => {
           <div className="mb-12">
             <div className="text-center mb-8">
               <p className="text-xl md:text-2xl mb-6">
-                Empowering teens with real-world skills they need now, not later.
+                The CodeQuest Experience
               </p>
               <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-6">
                 I'm trying to build a community of ambitious teens in India and giving them a platform focused on entrepreneurship.

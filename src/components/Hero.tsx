@@ -26,9 +26,7 @@ const Hero: React.FC = () => {
 
           <div className="flex flex-col md:flex-row justify-center gap-4 md:gap-6 mt-10">
             <a 
-              href="https://cal.com/rishul-chanana" 
-              target="_blank" 
-              rel="noopener noreferrer"
+              href="#contact"
               className="group flex items-center justify-center gap-2 bg-button-gradient-1 hover:bg-button-gradient-2 bg-[length:200%_auto] text-white font-medium py-3 px-8 rounded-full transition-all duration-300 hover:shadow-lg"
             >
               <Calendar size={20} />
