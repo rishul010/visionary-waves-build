@@ -37,18 +37,37 @@ const NavBar: React.FC = () => {
 
         {/* Desktop menu */}
         <div className="hidden md:flex space-x-8">
-          <a href="#about" className="text-gray-800 hover:text-psychedelic-purple transition-colors">About</a>
+          <a href="#" className="text-gray-800 hover:text-psychedelic-purple transition-colors">Home</a>
+          <a href="#about" className="text-gray-800 hover:text-psychedelic-purple transition-colors">Story</a>
           <a href="#maximally" className="text-gray-800 hover:text-psychedelic-pink transition-colors">Maximally</a>
           <a href="#contact" className="text-gray-800 hover:text-psychedelic-blue transition-colors">Contact</a>
+          <a 
+            href="https://maximally.in" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-psychedelic-purple font-medium hover:text-psychedelic-pink transition-colors"
+          >
+            Maximally.in
+          </a>
         </div>
 
         {/* Mobile menu */}
         {isOpen && (
           <div className="absolute top-full left-0 right-0 bg-white shadow-md md:hidden py-4">
             <div className="flex flex-col items-center space-y-4">
-              <a href="#about" className="text-gray-800 hover:text-psychedelic-purple transition-colors" onClick={() => setIsOpen(false)}>About</a>
+              <a href="#" className="text-gray-800 hover:text-psychedelic-purple transition-colors" onClick={() => setIsOpen(false)}>Home</a>
+              <a href="#about" className="text-gray-800 hover:text-psychedelic-purple transition-colors" onClick={() => setIsOpen(false)}>Story</a>
               <a href="#maximally" className="text-gray-800 hover:text-psychedelic-pink transition-colors" onClick={() => setIsOpen(false)}>Maximally</a>
               <a href="#contact" className="text-gray-800 hover:text-psychedelic-blue transition-colors" onClick={() => setIsOpen(false)}>Contact</a>
+              <a 
+                href="https://maximally.in" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-psychedelic-purple font-medium hover:text-psychedelic-pink transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Maximally.in
+              </a>
             </div>
           </div>
         )}

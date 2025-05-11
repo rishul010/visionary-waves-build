@@ -26,7 +26,7 @@ const ContactSection: React.FC = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Schedule a meeting</h3>
                   <a 
-                    href="https://cal.com" 
+                    href="https://cal.com/rishul-chanana" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-psychedelic-purple hover:underline"
@@ -43,10 +43,10 @@ const ContactSection: React.FC = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Email me</h3>
                   <a 
-                    href="mailto:email@example.com" 
+                    href="mailto:hello@rishulchanana.com" 
                     className="text-psychedelic-blue hover:underline"
                   >
-                    email@example.com
+                    hello@rishulchanana.com
                   </a>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const ContactSection: React.FC = () => {
                 <h3 className="text-xl font-semibold mb-4">Connect with me</h3>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://instagram.com" 
+                    href="https://www.instagram.com/chanana_rishul/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center justify-center h-12 w-12 bg-white rounded-full shadow-md hover:shadow-lg transition-all hover:-translate-y-1 text-psychedelic-pink"
@@ -63,7 +63,7 @@ const ContactSection: React.FC = () => {
                     <Instagram className="h-6 w-6" />
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://www.linkedin.com/in/rishul-chanana/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center justify-center h-12 w-12 bg-white rounded-full shadow-md hover:shadow-lg transition-all hover:-translate-y-1 text-psychedelic-blue"

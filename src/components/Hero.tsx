@@ -27,17 +27,17 @@ const Hero: React.FC = () => {
           
           <div className="flex flex-col md:flex-row justify-center gap-4 md:gap-6 mt-10">
             <a 
-              href="https://cal.com" 
+              href="https://cal.com/rishul-chanana" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group flex items-center justify-center gap-2 bg-button-gradient-1 hover:bg-button-gradient-2 bg-[length:200%_auto] text-white font-medium py-3 px-8 rounded-full transition-all duration-300 hover:shadow-lg"
             >
               <Calendar size={20} />
-              Let's chat
+              Talk to me
             </a>
             
             <a 
-              href="mailto:email@example.com" 
+              href="mailto:hello@rishulchanana.com" 
               className="group flex items-center justify-center gap-2 bg-button-gradient-2 hover:bg-button-gradient-1 bg-[length:200%_auto] text-gray-800 hover:text-white font-medium py-3 px-8 rounded-full transition-all duration-300 hover:shadow-lg"
             >
               <Mail size={20} />
@@ -45,10 +45,12 @@ const Hero: React.FC = () => {
             </a>
             
             <a 
-              href="#maximally" 
+              href="https://maximally.in" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="group flex items-center justify-center gap-2 bg-transparent hover:bg-button-gradient-3 bg-[length:200%_auto] text-gray-800 hover:text-white border-2 border-gray-300 font-medium py-3 px-8 rounded-full transition-all duration-300 hover:border-transparent hover:shadow-lg"
             >
-              Maximally
+              Maximally.in
             </a>
           </div>
         </div>
