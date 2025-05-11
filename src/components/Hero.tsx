@@ -39,11 +39,10 @@ const Hero: React.FC = () => {
               rel="noopener noreferrer"
               className="group flex items-center justify-center gap-2 bg-button-gradient-2 hover:bg-button-gradient-1 bg-[length:200%_auto] text-gray-800 hover:text-white font-medium py-3 px-8 rounded-full transition-all duration-300 hover:shadow-lg"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-1">
-                <path d="M7 7h10v10" />
-                <path d="M7 17 17 7" />
-              </svg>
               Read My Thoughts
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M7 17l9.2-9.2M17 17V7H7" />
+              </svg>
             </a>
 
             <a 
