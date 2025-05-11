@@ -12,11 +12,11 @@ const AboutMe: React.FC = () => {
           
           <div className="space-y-8 text-lg">
             <p className="leading-relaxed">
-              I'm the <span className="text-gradient gradient-1 font-semibold">16-year-old</span> who built India's biggest school hackathon and created <span className="text-gradient gradient-3 font-semibold">Maximally</span>, a startup designed to teach teens the skills they need now.
+              I'm a <span className="text-gradient gradient-1 font-semibold">passionate learner, explorer, and student</span> with a deep-rooted interest in technology and its real-world applications. I thrive on bridging the gap between theoretical knowledge and practical innovation, constantly seeking ways to harness technology to solve real-world problems across diverse fields.
             </p>
             
             <p className="leading-relaxed">
-              I believe in <span className="font-semibold">building solutions that others overlook</span>. While most focus on immediate problems, I'm working on the long-term challenges that will shape our future.
+              My interests extend beyond technology into the realms of <span className="font-semibold">philosophy, psychology, and societal impact</span>, where I enjoy exploring different schools of thought and ideas. A self-proclaimed jack-of-all-trades, I am always curious to learn and grow, immersing myself in self-help books, psychology, and concepts that push me to think differently.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
